@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: "poppins";
+}
+nav{
+    height: 10vh;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.nav-1{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-2{
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style-type: none;
+}
+.nav-2 a{
+    text-decoration: none;
+    color: black;
+}
+
+/*section home*/
+#home{
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile{
+    height: 90%;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    
+}
+.img-con{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-box{
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    overflow: hidden;
+    
+}
+.img-box img{
+    width: 100%;
+}
+.txt-con{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 50%;
+
+}
+.txt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;    
+
+    height: 30%;
+    width: 100%;
+}
+.links{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 10%;
+    width: 40%;
+    
+}
+.link{
+    padding: 7px 15px;
+    background-color: white;
+    border-radius: 25px;
+    text-decoration: none;
+    color: black;
+    transition: all 0.3s all;
+
+}
+.link{
+    transition: all 0.3s;
+    border: none;
+    outline: none;
+}
+#hireBtn{
+   
+    border: 2px solid black;
+}
+#hireBtn:hover{
+    border-color: gold;
+    background-color: gold;
+    color: rgb(0, 0, 0);
+}
+#contBtn{
+   
+    border: 2px solid ;
+    border-color: #1d1d1d;
+    background-color: #1d1d1d;
+    color: white;
+}
+#contBtn:hover{
+    border: 2px solid #1d1d1d;
+    background-color:white;
+    color: #1d1d1d;
+}
+#contBtn:hover .fa-paper-plane{
+    color: #1d1d1d;
+}
+.hlinks{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    height: 5%;
+    width: 30%;
+    font-size: 2rem;
+}
+
+
+/*about page*/
+#about{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    height: 90%;
+    width: 90%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+}
+.left, .right{
+    height: 100%;
+    width: 50%;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+   
+.edu, .skills{
+    height: 30%;
+    width: 50%;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    box-shadow: 5px 5px 5px gray;
+}
+
+.img-abt{
+    height: 50%;
+    width: 50%;
+    overflow: hidden;
+    border-radius: 25px;
+    box-shadow:  5px 0px 5px gray;
+}
+.img-abt img{
+    height: 100%;
+    width: 100%;
+}
+.abt-txt{
+    height: 20%;
+    width: 90%;
+    padding: 5px;
+}
+/*about page*/
+
+#projects{
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.proj1, .proj2{
+    height: 100%;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.project{
+    height: 50%;
+    width: 90%;
+    overflow: hidden;
+}
+.project img{
+    height: 100%;
+    width: 100%;
+    box-shadow:  5px 0px 5px gray;
+}
+.project-txt{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.project-txt a{
+    padding: 7px 15px;
+    background-color: #1d1d1d;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    transition: all 0.3s;
+
+}
+
+.project-txt a:hover{
+    background-color: gold;
+    color: #1d1d1d;
+}
+
+/*about page*/
+#contact{
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contact{
+    height: 90%;
+    width: 90%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.clinks{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    border: 2px solid #1d1d1d;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow:  5px 5px 5px gray;
+
+
+    height: 15%;
+    width: 50%;
+    font-size: 2rem;
+}
+footer{
+    background-color: #1d1d1d;
+    height: 5vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* .pagetitle{
+    height: 5vh;
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+.j{
+    color: #d467ff;
+}

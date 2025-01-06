@@ -1,0 +1,193 @@
+@media screen and (max-width: 768px) {
+    /* .nav {
+      display: none;
+      flex-direction: column;
+      background-color: #333;
+      position: absolute;
+      top: 60px;
+      left: 0;
+      width: 100%;
+      padding: 10px;
+    }
+  
+    .nav li {
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+  
+    .burger {
+      display: flex;
+    }
+   */
+   nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 5vh;
+    width: 100%;
+   }
+   .nav-1{
+    width: 20%;
+   }
+   .nav-2{
+    width: 70%;
+    display: flex;
+    font-size: 0.7rem;
+   }
+
+
+
+    .profile{
+      height: 90%;
+      width: 90%;
+      display: flex;
+      flex-direction: column;
+      
+  }
+
+  .img-con{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-box{
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  justify-content: flex-end;
+
+
+}
+.txt-con{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.links{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 10%;
+  width: 80%;
+  
+}
+
+.hlinks{
+  height: 5%;
+  width: 50%;
+  font-size: 2rem;
+}
+
+
+.container{
+  height: 90%;
+  width: 90%;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+}
+
+.left{
+  height: 50%;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+
+
+}
+
+.right{
+  height: 50%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+
+}
+.edu, .skills{
+  height: 45%;
+  width: 90%;
+  font-size: 0.8rem;
+}
+.img-abt{
+
+  width: 45%;
+
+}
+.abt-txt{
+
+  font-size: 0.7rem;
+}
+
+
+
+.proj1, .proj2{
+  height: 500%;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+
+
+
+
+.clinks{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  border: 2px solid #1d1d1d;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow:  5px 5px 5px gray;
+
+
+  height: 10%;
+  width: 80%;
+  font-size: 2rem;
+}
+
+footer{
+  background-color: #1d1d1d;
+  height: 5vh;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.7rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  }
